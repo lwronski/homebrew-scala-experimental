@@ -1,8 +1,8 @@
 # typed: false
 # frozen_string_literal: true
 
-# Scala Experimental Formula
-class ScalaExperimental < Formula
+# Experimental Scala Formula
+class Scala < Formula
   desc "Experimental launcher for Scala"
   homepage "https://virtuslab.github.io/scala-cli/"
   url (RUBY_PLATFORM.include? "arm64") ?
