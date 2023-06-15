@@ -12,6 +12,7 @@ class Scala < Formula
   sha256 (RUBY_PLATFORM.include? "arm64") ?
     "e84563090801dcad8fb8e3bace82c89b4272c1cdf377f170982c08ee56a7d258" :
     "14e020108c04588a418fa35378c91988203cc49c7f86bd082f9d32dbf4b852ef"
+  version_scheme 1
   license "Apache-2.0"
 
   def install
