@@ -8,7 +8,7 @@ class Scala < Formula
   url (RUBY_PLATFORM.include? "arm64") ?
     "https://github.com/Virtuslab/scala-cli/releases/download/v1.0.1/scala-cli-aarch64-apple-darwin.gz" :
     "https://github.com/Virtuslab/scala-cli/releases/download/v1.0.1/scala-cli-x86_64-apple-darwin.gz"
-  version "1.0.1"
+  version "1.0.2"
   sha256 (RUBY_PLATFORM.include? "arm64") ?
     "e84563090801dcad8fb8e3bace82c89b4272c1cdf377f170982c08ee56a7d258" :
     "14e020108c04588a418fa35378c91988203cc49c7f86bd082f9d32dbf4b852ef"
